@@ -1,1 +1,28 @@
-/*  your css code here. If applicable */
+#grid{
+	width: 700px;
+	height: 500px;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 4px;
+}
+.box{
+	background-color: green;
+	color: white;
+	font-size:30px;
+}
+.box1{
+	grid-column: 1/5;
+}
+.box2{
+	grid-row: 2/6;
+}
+.box4{
+	grid-column: 3/5;
+}
+.box5{
+	grid-column: 2/4;
+}
+.box10{
+	grid-column: 2/5;
+}
